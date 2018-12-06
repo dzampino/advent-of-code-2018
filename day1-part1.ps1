@@ -1,11 +1,11 @@
-[int]$frequency = 0
+[int]$Frequency = 0
 
-foreach ($line in (Get-Content .\day1.input)) {
-    if ($line[0] -eq "+") {
-        $frequency = $frequency + [int]$line.trim("+")
+foreach ($Line in (Get-Content .\day1.input)) {
+    if ($Line[0] -eq "+") {
+        $Frequency = $Frequency + [int]$Line.trim("+")
     }
     else {
-        $frequency = $frequency + [int]$line
+        $Frequency = $Frequency + [int]$Line
     }
 }
-$frequency
+$Frequency
