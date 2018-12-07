@@ -1,7 +1,3 @@
-#parser
-#generate grid 11x8
-#iterate through list and mark it
-#count marks
 $width = 1000
 $length = 1000
 $array = New-Object 'object[,]' $width,$length
